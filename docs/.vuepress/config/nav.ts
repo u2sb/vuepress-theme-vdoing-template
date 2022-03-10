@@ -9,11 +9,11 @@ export default <Array<NavItem>>[
     items: [
       {
         text: "项目配置",
-        link: "/config/",
+        link: "/start/",
       },
       {
-        text: "CI配置",
-        link: "/ci/",
+        text: "部署",
+        link: "/deploy/",
       },
       {
         text: "更多参考",

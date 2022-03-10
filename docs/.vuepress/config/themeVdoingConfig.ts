@@ -90,8 +90,6 @@ export default <VdoingThemeConfig>{
     copyrightInfo: `
       <a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
       <br>
-      本站由 <a href='https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral' target='_blank'><img src='/assets/img/upyun.png' height='20px' style="vertical-align:middle"> </a>提供 CDN 加速 / 云存储服务
-      <br>
       <a href="http://beian.miit.gov.cn/" target="_blank">蒙ICP备12345678号-1</a>
     `, // 博客版权信息，支持a标签
   },

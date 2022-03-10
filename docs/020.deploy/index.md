@@ -2,12 +2,12 @@
 pageComponent:
   name: Catalogue
   data:
-    key: 030.more
-    imgUrl: /assets/img/more.png
-    description: 更多参考
-title: MORE
+    key: 020.deploy
+    imgUrl: /assets/img/other.png
+    description: 部署
+title: 部署
 date: 2022-03-09 10:50:53
-permalink: /more/
+permalink: /deploy/
 sidebar: false
 article: false
 comment: false

@@ -4,7 +4,7 @@
 
 [vuepress-theme-vdoing-template](https://github.com/u2sb/vuepress-theme-vdoing-template) 是 [vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) 的一个模板仓库，可帮助新用户快速使用 vdoing 主题。
 
-> 本文只是简易文档，详细文档见 [https://vdoing-template.u2sb.com]
+> 本文只是简易文档，详细文档见 [https://vdoing-template.u2sb.com](https://vdoing-template.u2sb.com)
 > 本项目仍在测试阶段，如遇到问题，请及时[反馈](https://github.com/u2sb/vuepress-theme-vdoing-template/issues)
 
 ## 项目基础
@@ -88,22 +88,25 @@ yarn build
 
 ### vuepress
 
-- vuepress-plugin-fulltext-search
-- vuepress-plugin-one-click-copy
-- vuepress-plugin-pangu
-- vuepress-plugin-sitemap
-- vuepress-plugin-smplayer
-- vuepress-plugin-zooming
+- [vuepress-plugin-fulltext-search](https://www.npmjs.com/package/vuepress-plugin-fulltext-search)
+- [vuepress-plugin-one-click-copy](https://www.npmjs.com/package/vuepress-plugin-one-click-copy)
+- [vuepress-plugin-pangu](https://www.npmjs.com/package/vuepress-plugin-spacing)
+- [vuepress-plugin-sitemap](https://www.npmjs.com/package/vuepress-plugin-sitemap)
+- [vuepress-plugin-smplayer](https://www.npmjs.com/package/vuepress-plugin-smplayer)
+- [vuepress-plugin-zooming](https://www.npmjs.com/package/vuepress-plugin-zooming)
 
 ### markdown-it
 
-- markdown-it-attrs
-- markdown-it-footnote
-- markdown-it-imsize
-- markdown-it-mathjax3
-- markdown-it-sub
-- markdown-it-sup
-- markdown-it-task-lists
+- [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
+- [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
+- [markdown-it-imsize](https://www.npmjs.com/package/markdown-it-imsize)
+- [markdown-it-mathjax3](https://www.npmjs.com/package/markdown-it-mathjax3)
+- [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub)
+- [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup)
+- [markdown-it-task-lists](https://www.npmjs.com/package/markdown-it-task-lists)
+- [markdown-it-abbr](https://www.npmjs.com/package/markdown-it-abbr)
+- [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins)
+- [markdown-it-multimd-table-ext](https://www.npmjs.com/package/markdown-it-multimd-table-ext)
 
 ## 提示
 

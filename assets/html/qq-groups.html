@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QQ群</title>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.0/build/qrcode.js"></script>
+</head>
+
+<body>
+    <center>
+        <a target="_blank"
+            href="https://jq.qq.com/?_wv=1027&k=cdDlPVER">
+            <canvas id="qgqr"></canvas>
+        </a>
+        <p>
+            <h2>点击上方二维码加群</h2>
+        </p>
+        <p>694387113</p>
+    </center>
+
+    <script>
+        QRCode.toCanvas(document.getElementById('qgqr'),
+            'https://qm.qq.com/cgi-bin/qm/qr?k=VdhPhvKmwdQLG7OFT9WP7WoNt1-hVwwb&authKey=Gv5FGjW7m9UT/e9Lz7LpkeJqo4zFGPTfIE20KCiuDv6ENQYe3jvrK+p7z+W5mQLX&noverify=0',
+            )
+    </script>
+</body>

@@ -22,6 +22,9 @@ export default <UserPlugins>[
         src: {
           playbackRate: true,
           whitelist: ["*"],
+          moreVideoAttr: {
+            preload: "auto",
+          },
         },
       },
     } as SmPlayerPluginOption,

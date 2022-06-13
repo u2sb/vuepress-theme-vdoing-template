@@ -1838,18 +1838,17 @@ array-unique@^0.3.2:
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
-artplayer-plugin-danmuku@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/artplayer-plugin-danmuku/-/artplayer-plugin-danmuku-4.3.0.tgz#ad1a59bc1a56eecea3f0bf2bacbd73724237f150"
-  integrity sha512-rWFx5I7IJYKaggcWVG/u0K6T1/C1qTNiO4DKMOIvSJNYzn11wLtp9vknyP3GVkbJ2M9PTcPfpZElcsbDxbuXcA==
+artplayer-plugin-danmuku@^4.4.8:
+  version "4.4.8"
+  resolved "https://registry.yarnpkg.com/artplayer-plugin-danmuku/-/artplayer-plugin-danmuku-4.4.8.tgz#97e76deca133da0459284f98f2c4bee04bb7ad83"
+  integrity sha512-l7a20i19emzHP//R1UQ4lbkmCbVBEbBazCtHSxUq3H7Pj32Rfft9Tc5afrG5uJEvtkxDKDSBdBavrmwh5aM64w==
 
-artplayer@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/artplayer/-/artplayer-4.3.4.tgz#ea578552530258d71f231b207c8e32c1248a3b47"
-  integrity sha512-Ma60cC1n4G/CFPo8zOGglRU1u/OFnJGp1hJ4fe5rWIFFsCDx3D6OvfBZDMlkRreHQt8DBW0BF/oGGM6Rq0nv1g==
+artplayer@^4.4.7:
+  version "4.4.7"
+  resolved "https://registry.yarnpkg.com/artplayer/-/artplayer-4.4.7.tgz#f2a3f1e8b13f43e7db77aafa2a13b25e78b1448f"
+  integrity sha512-KgGHHyzWrhyBG/GYN+vWBU+wI9WamAerUuYdYWflKdHXpr5i6V/+6dAbZmBCB+KAZKx/auQJe0tI+dGKCJqPpQ==
   dependencies:
     option-validator "^2.0.6"
-    screenfull "^6.0.1"
 
 asn1.js@^5.2.0:
   version "5.4.1"
@@ -2046,6 +2045,11 @@ bencode@^2.0.0, bencode@^2.0.1, bencode@^2.0.2:
   resolved "https://registry.yarnpkg.com/bencode/-/bencode-2.0.2.tgz#e79305ed3e3ab89843cbedc9574fccc067fd3bfe"
   integrity sha512-0ilVjnE2diLdbec/3KN14SP0KE85wh8v/FceNRMbAB2ioc3yTj9tgqdoK9tFEH++TZ10JreTS29qTwg7+SpTiQ==
 
+bencode@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/bencode/-/bencode-2.0.3.tgz#89b9c80ea1b8573554915a7d0c15f62b0aa7fc52"
+  integrity sha512-D/vrAD4dLVX23NalHwb8dSvsUsxeRPO8Y7ToKA015JQYq69MLDOMkC0uGZYA/MPpltLO8rt8eqFC2j8DxjTZ/w==
+
 bep53-range@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/bep53-range/-/bep53-range-1.1.1.tgz#20fd125b00a413254a77d42f63a43750ca7e64ac"
@@ -2088,6 +2092,11 @@ bitfield@^4.0.0:
   resolved "https://registry.yarnpkg.com/bitfield/-/bitfield-4.0.0.tgz#3094123c870030dc6198a283d779639bd2a8e256"
   integrity sha512-jtuSG9CQr5yoHFuvhgf50+DH8Aezl3C/mMSfqdG4DqP7Kqe34uBUtCEHPN9oWaldTm96/i7y5e778SnM5ES4rw==
 
+bitfield@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/bitfield/-/bitfield-4.1.0.tgz#77f3ef4e915e58adaf758b23cbff156959e0fd8e"
+  integrity sha512-6cEDG3K+PK9f+B7WyhWYjp09bqSa+uaAaecVA7Y5giFixyVe1s6HKGnvOqYNR4Mi4fBMjfDPLBpHkKvzzgP7kg==
+
 bittorrent-dht@^10.0.2:
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/bittorrent-dht/-/bittorrent-dht-10.0.2.tgz#30db8e465991ea2190eddd85087a8d63e4f60310"
@@ -2100,6 +2109,21 @@ bittorrent-dht@^10.0.2:
     last-one-wins "^1.0.4"
     lru "^3.1.0"
     randombytes "^2.0.5"
+    record-cache "^1.0.2"
+    simple-sha1 "^3.1.0"
+
+bittorrent-dht@^10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/bittorrent-dht/-/bittorrent-dht-10.0.4.tgz#69d416b8c8498d558fd283fc36ee15c2474ee787"
+  integrity sha512-Yx5cZXU4R+mUbxR2PbKdvOVTizOrePPF8NT3WGCXX5qzJVt8gF8gq9GMBWcmNjHUBYHVigDaRf030hxQ2dJWUg==
+  dependencies:
+    bencode "^2.0.3"
+    debug "^4.1.1"
+    k-bucket "^5.0.0"
+    k-rpc "^5.0.0"
+    last-one-wins "^1.0.4"
+    lru "^3.1.0"
+    randombytes "^2.1.0"
     record-cache "^1.0.2"
     simple-sha1 "^3.1.0"
 
@@ -2116,10 +2140,10 @@ bittorrent-peerid@^1.3.3:
   resolved "https://registry.yarnpkg.com/bittorrent-peerid/-/bittorrent-peerid-1.3.4.tgz#81c1597a06a1d424a6ddd1bb196eead98c250d01"
   integrity sha512-Xzk1FJFHmsc9H8IKFtDUkfAZIT1HW8r6UqajfZBBxWmpA1v7FsPO8xPFtnFzCqcXlPN3yi8dDmlqZCemyB7P8w==
 
-bittorrent-protocol@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/bittorrent-protocol/-/bittorrent-protocol-3.5.2.tgz#73791b7cc5ce07f6f25cad7a5847728c6b8acb08"
-  integrity sha512-IoUKeNg5aIoUfL7iYLM3L6CsuV14iEByyqdT3f2uFK4zlJiQr+kb86ERlrobYBBIj6qW6GJ9eyAU8GhL3IhFrA==
+bittorrent-protocol@^3.5.5:
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/bittorrent-protocol/-/bittorrent-protocol-3.5.5.tgz#d89233da11996d8978146f8b80ed91fec9e0e9b8"
+  integrity sha512-cfzO//WtJGNLHXS58a4exJCSq1U0dkP2DZCQxgADInYFPdOfV1EmtpEN9toLOluVCXJRYAdwW5H6Li/hrn697A==
   dependencies:
     bencode "^2.0.2"
     bitfield "^4.0.0"
@@ -2131,10 +2155,10 @@ bittorrent-protocol@^3.5.2:
     speedometer "^1.1.0"
     unordered-array-remove "^1.0.2"
 
-bittorrent-tracker@^9.18.5:
-  version "9.18.5"
-  resolved "https://registry.yarnpkg.com/bittorrent-tracker/-/bittorrent-tracker-9.18.5.tgz#b8a1491a24b40790cb67874dfe0ecbb451f909de"
-  integrity sha512-yh/lGHLNuTNZJJlUAmikYOX+njHIr8BFqCxJiXSQ3FaEmhj2xhe1OXF9DcrHpmMYmAQEKWC6+P/uNWGRKdkH9g==
+bittorrent-tracker@^9.18.6:
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/bittorrent-tracker/-/bittorrent-tracker-9.19.0.tgz#2266bfa8a45a57b09f8d8b184710ba531712d8ef"
+  integrity sha512-09d0aD2b+MC+zWvWajkUAKkYMynYW4tMbTKiRSthKtJZbafzEoNQSUHyND24SoCe3ZOb2fKfa6fu2INAESL9wA==
   dependencies:
     bencode "^2.0.1"
     bittorrent-peerid "^1.3.3"
@@ -3357,10 +3381,10 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-dashjs@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/dashjs/-/dashjs-4.3.0.tgz#cccda5a490cabf6c3b48aa887ec8c8ac0df1a233"
-  integrity sha512-cqpnJaPQpEY4DsEdF9prwD00+5dp5EGHCFc7yo9n2uuAH9k4zPkZJwXQ8dXmVRhPf3M89JfKSoAYIP3dbXmqcg==
+dashjs@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/dashjs/-/dashjs-4.4.0.tgz#5fd2cf941d4d2ee189a40dc7875252b801363dea"
+  integrity sha512-P0brvMEBg/e5HQJXZ22bNfITD8zlE++mP3AddGmGFE7qwDWwKRYk2q3q3Cs4HuhFO/tL8gElI2qjUKMVDWBLGA==
   dependencies:
     codem-isoboxer "0.3.6"
     es6-promise "^4.2.8"
@@ -3395,7 +3419,7 @@ debug@^3.1.1, debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
+debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -4462,10 +4486,10 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-chunk-store@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/fs-chunk-store/-/fs-chunk-store-2.0.4.tgz#ca797b7032a3752d1e7553cb9cec8970395cc34a"
-  integrity sha512-JfeKRPPWkLaUoNKZdi+eLPKzZkZK1pdj2Y5lidEw9fUCkglvK/muLe6ONjdvn8yAGrDsk4tkjNp52GS658yy0g==
+fs-chunk-store@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/fs-chunk-store/-/fs-chunk-store-2.0.5.tgz#1dd4bdbb371239ac6f7234af6cd4386c72315059"
+  integrity sha512-z3c2BmyaHdQTtIVXJDQOvwZVWN2gNU//0IYKK2LuPr+cZyGoIrgDwI4iDASaTUyQbOBtyg/k6GuDZepB6jQIPw==
   dependencies:
     queue-microtask "^1.2.2"
     random-access-file "^2.0.1"
@@ -6074,10 +6098,10 @@ markdown-it-anchor@^5.0.2:
   resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-5.3.0.tgz#d549acd64856a8ecd1bea58365ef385effbac744"
   integrity sha512-/V1MnLL/rgJ3jkMWo84UR+K+jF1cxNG1a+KwqeXqTIJ+jtA8aWSHuigx8lTzauiIjBDbwF3NcWQMotd0Dm39jA==
 
-markdown-it-attrs@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.1.3.tgz#2b5ab8371ae947155566eaabe8c73548e816dfcd"
-  integrity sha512-d5yg/lzQV2KFI/4LPsZQB3uxQrf0/l2/RnMPCPm4lYLOZUSmFlpPccyojnzaHkfQpAD8wBHfnfUW0aMhpKOS2g==
+markdown-it-attrs@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.1.4.tgz#25c86055affbc1cb9c4605a86aa26495efa16ec7"
+  integrity sha512-53Zfv8PTb6rlVFDlD106xcZHKBSsRZKJ2IW/rTxEJBEVbVaoxaNsmRkG0HXfbHl2SK8kaxZ2QKqdthWy/QBwmA==
 
 markdown-it-chain@^1.3.0:
   version "1.3.0"
@@ -8108,11 +8132,6 @@ schema-utils@^2.6.5:
     ajv "^6.12.4"
     ajv-keywords "^3.5.2"
 
-screenfull@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/screenfull/-/screenfull-6.0.1.tgz#3b71e6f06b72d817a8d3be73c45ebe71fa8da1ce"
-  integrity sha512-yzQW+j4zMUBQC51xxWaoDYjxOtl8Kn+xvue3p6v/fv2pIi1jH4AldgVLU8TBfFVgH2x3VXlf3+YiA/AYIPlaew==
-
 section-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/section-matter/-/section-matter-1.0.0.tgz#e9041953506780ec01d59f292a19c7b850b84167"
@@ -8256,10 +8275,10 @@ shaka-player@^2.4.0:
   dependencies:
     eme-encryption-scheme-polyfill "^2.0.1"
 
-shaka-player@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/shaka-player/-/shaka-player-3.3.2.tgz#6c903413d64d0205d2c9672440f041233075e748"
-  integrity sha512-6N9J/Dy7xprT8xKcs9+YYiEJsXfKn3xtVzLndLRFP2hR13tn3YzVhP83hZmbnLzOEFBpuYlRq4kNrBNlOA+4/g==
+shaka-player@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/shaka-player/-/shaka-player-4.1.0.tgz#e893fc86ff9c66f3f412cfdae1c1b714f753fa02"
+  integrity sha512-Itg2C/x807lApXn0vQLRO97b/2CVe5nxWa2quob1HpVC3kpjpOvTiMno25PXCq9o5Y3lPKYUTS822/MCe5gobQ==
   dependencies:
     eme-encryption-scheme-polyfill "^2.0.3"
 
@@ -8921,6 +8940,11 @@ through@2, through@~2.3.4:
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
 
+throughput@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/throughput/-/throughput-1.0.1.tgz#f8474cfc8f2f0eb740410bc23fa920b0bdba6d53"
+  integrity sha512-4Mvv5P4xyVz6RM07wS3tGyZ/kPAiKtLeqznq3hK4pxDiTUSyQ5xeFlBiWxflCWexvSnxo2aAfedzKajJqihz4Q==
+
 thunky@^1.0.1, thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
@@ -9010,15 +9034,15 @@ toposort@^1.0.0:
   resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.7.tgz#2e68442d9f64ec720b8cc89e6443ac6caa950029"
   integrity sha1-LmhELZ9k7HILjMieZEOsbKqVACk=
 
-torrent-discovery@^9.4.10:
-  version "9.4.10"
-  resolved "https://registry.yarnpkg.com/torrent-discovery/-/torrent-discovery-9.4.10.tgz#3c7b76c119ee7ceca29d1b700492c1a47004b691"
-  integrity sha512-Sx2BdYYRCWXkxenGlbt3ZRSH6rcrt8ii6O6Aub9vqeS+RzzyNn2w68QVGClpctExoLle3T2eXO9gdlPANckMkA==
+torrent-discovery@^9.4.12:
+  version "9.4.12"
+  resolved "https://registry.yarnpkg.com/torrent-discovery/-/torrent-discovery-9.4.12.tgz#a1ffa49d46818d25f5024766480d86f7f2c65a58"
+  integrity sha512-Des49BZggopAXc/rF8+MqDd4NGe9iwT4g7LGzithHUYocTax5wFFnVXkUh6N5U9sGZN4RZ1dr7bVIkD3xCfxIA==
   dependencies:
     bittorrent-dht "^10.0.2"
     bittorrent-lsd "^1.1.1"
-    bittorrent-tracker "^9.18.5"
-    debug "^4.3.3"
+    bittorrent-tracker "^9.18.6"
+    debug "^4.3.4"
     run-parallel "^1.2.0"
 
 torrent-piece@^2.0.1:
@@ -9584,25 +9608,25 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-smplayer@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.2.tgz#ad4396bb3698bcce0a67b1f163c61df6b827a49d"
-  integrity sha512-5bNpwSIiD4zO4gPv53dIx6EoZuXWvEkTc3l/aoJCxitlRnOPynxLmPJBgwmOIfQ4S3CMgeGF7x0cdVUPFU24YQ==
+vuepress-plugin-smplayer@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.3.tgz#52cdecd72a673f827c7aece555e14fa90a1a3b40"
+  integrity sha512-xrP6obQ3+fXmA9gFDSrSkPYGXyjK8cXtJNRFiRIaE/Etr6ESTPrHw6mYI0ssZbyGasqG0TYq3MXNcytoLJ9evw==
   dependencies:
     aplayer "^1.10.1"
-    artplayer "^4.3.4"
-    artplayer-plugin-danmuku "^4.3.0"
-    dashjs "^4.3.0"
+    artplayer "^4.4.7"
+    artplayer-plugin-danmuku "^4.4.8"
+    dashjs "^4.4.0"
     dplayer "^1.26.0"
     hls.js "^1.1.5"
     mpegts.js "^1.6.10"
-    shaka-player "^3.3.1"
+    shaka-player "^4.1.0"
     ts-deepmerge "^2.0.1"
-    webtorrent "^1.8.12"
-    xgplayer "^2.31.4"
+    webtorrent "^1.8.22"
+    xgplayer "^2.31.6"
     xgplayer-dash "^1.1.8"
     xgplayer-flv.js "^2.3.0"
-    xgplayer-hls "^2.5.1"
+    xgplayer-hls "^2.5.2"
     xgplayer-hls.js "^2.6.1"
     xgplayer-music "^2.3.2"
     xgplayer-shaka "^1.1.5"
@@ -9614,10 +9638,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.11.1.tgz#2f547066c3bf0b0cff3ee09378b2e8c57844324d"
-  integrity sha512-rBYdQcYStfl7MAdQ+ga9O6Rv849pk6pf7m6hTBMC06M7v61BPiQt85Ai8CyL5l5BUM5GTTlEwPJqUa9iwoNbgg==
+vuepress-theme-vdoing@^1.12.3:
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.3.tgz#2d6a623653854385d12ddc763454a84feffa4533"
+  integrity sha512-LVyyTDrK0e+Fr5MAGMhaeci0Y3N/hczKG4rzxtuvQq71w4HcnCm+CXTLnHczxQ4aroqqR96caJmwxzfWjVqRbw==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
@@ -9841,16 +9865,16 @@ websocket-extensions@>=0.1.1:
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
-webtorrent@^1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/webtorrent/-/webtorrent-1.8.12.tgz#2a6930ee03256df34d444d2c0c1e0339d100c0f6"
-  integrity sha512-YJhE1ZsMmVCGnAwBI/71FhW7x8aQLWP9TY5EqUUGmwNOBKoq80sO3IRdJ63bjjEHaushcm4DF0EKmHcIeq+aTQ==
+webtorrent@^1.8.22:
+  version "1.8.22"
+  resolved "https://registry.yarnpkg.com/webtorrent/-/webtorrent-1.8.22.tgz#49af2f35be45468021799c2a4c7688debba0394f"
+  integrity sha512-gJv4RBpas5L5KyDvhq4HpHgnwdwKQtqBEkDAgqGzSVqq74DY5/9yz3Y+YdnddmlDh3WKlInOXRfIYRR9ZyaRXg==
   dependencies:
     "@webtorrent/http-node" "^1.3.0"
     addr-to-ip-port "^1.5.4"
-    bitfield "^4.0.0"
-    bittorrent-dht "^10.0.2"
-    bittorrent-protocol "^3.5.2"
+    bitfield "^4.1.0"
+    bittorrent-dht "^10.0.4"
+    bittorrent-protocol "^3.5.5"
     cache-chunk-store "^3.2.2"
     chrome-net "^3.3.4"
     chunk-store-stream "^4.3.0"
@@ -9859,7 +9883,7 @@ webtorrent@^1.8.12:
     debug "^4.3.4"
     end-of-stream "^1.4.4"
     escape-html "^1.0.3"
-    fs-chunk-store "^2.0.4"
+    fs-chunk-store "^2.0.5"
     immediate-chunk-store "^2.2.0"
     load-ip-set "^2.2.1"
     lt_donthave "^1.0.1"
@@ -9881,11 +9905,11 @@ webtorrent@^1.8.12:
     simple-peer "^9.11.1"
     simple-sha1 "^3.1.0"
     speed-limiter "^1.0.2"
-    speedometer "^1.1.0"
     stream-to-blob "^2.0.1"
     stream-to-blob-url "^3.0.2"
     stream-with-known-length-to-buffer "^1.0.4"
-    torrent-discovery "^9.4.10"
+    throughput "^1.0.1"
+    torrent-discovery "^9.4.12"
     torrent-piece "^2.0.1"
     unordered-array-remove "^1.0.2"
     ut_metadata "^3.5.2"
@@ -10026,56 +10050,56 @@ xgplayer-flv.js@^2.3.0:
     glob "^7.1.2"
     webworkify "^1.5.0"
 
-xgplayer-helper-codec@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-helper-codec/-/xgplayer-helper-codec-2.5.1.tgz#a4255adc1c7b4c0bf302d28f4fb9f7d224febf2c"
-  integrity sha512-lAT2eRuZiWXoYH2vl7p8F7bfdl5LprHZv3CfGRuxpdpuy59nf965N35hBWDrO44qoJfv3hBxMFsrgN/Fw+AN+w==
+xgplayer-helper-codec@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-helper-codec/-/xgplayer-helper-codec-2.5.2.tgz#345d3c402a18a5ce7424e388b0898fe74a222676"
+  integrity sha512-Btc4H17zzjBMUfkrmtaZQiK4pFZfXoGsauNKM9EFXWQAOCyj23SV0DCnIE+Cytmpc0pzgCXyrE/s3Ip4d+tEpQ==
   dependencies:
-    xgplayer-helper-utils "2.5.1"
+    xgplayer-helper-utils "2.5.2"
 
-xgplayer-helper-models@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-helper-models/-/xgplayer-helper-models-2.5.1.tgz#8c0897269d73c1714edfb3d5bac5104569e20cd2"
-  integrity sha512-cgGWXhhmnGw//m9f3f1mUISY6npmuljmiI/vmP8H7X1OftdmpA3aTRiCKc+mPBdWi/V3ijS5O+1CYr25K+cVLg==
+xgplayer-helper-models@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-helper-models/-/xgplayer-helper-models-2.5.2.tgz#7939fe7ce47d025f86ff8cf2049048c09d9949d7"
+  integrity sha512-PTI25jiH6yHJj2fW1T/GuVjc4fXxhyToadCFZH0GjqSbiFwr0S9JAjvJr1ly6orhGyBmOeN4lOPIOLxIkolAxQ==
 
-xgplayer-helper-transmuxers@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-helper-transmuxers/-/xgplayer-helper-transmuxers-2.5.1.tgz#d6eb587780e93f60b678d82215cab5fc241a19e7"
-  integrity sha512-7ZhLlvPbuwOmwFRjHNA8y4oskfza9kKnrOWlsc45/j4KyzsqGgka8/QwCmPOKH025QN7zUjyfJ+sTceIgMN7Mg==
+xgplayer-helper-transmuxers@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-helper-transmuxers/-/xgplayer-helper-transmuxers-2.5.2.tgz#f287466c6a4bfd028232dcb4c183cc5d43a7caf0"
+  integrity sha512-IEcGCJZUqu/j8W3JFWUMIK7SaiSoKXqJ6hyg0W7HfXOIEj3AqNs8hz3GIX34b+2PrLMQgyFh8HuQN91P7UAnvg==
   dependencies:
     concat-typed-array "^1.0.2"
     eventemitter3 "^4.0.7"
-    xgplayer-helper-codec "2.5.1"
-    xgplayer-helper-models "2.5.1"
-    xgplayer-helper-utils "2.5.1"
+    xgplayer-helper-codec "2.5.2"
+    xgplayer-helper-models "2.5.2"
+    xgplayer-helper-utils "2.5.2"
 
-xgplayer-helper-utils@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-helper-utils/-/xgplayer-helper-utils-2.5.1.tgz#7f175cbf425256e66512e301688ee96162a62e21"
-  integrity sha512-Dv49YaSxXQy4Az3XQHVRcQGT9d+ecgj4d8SIW+umY//NO6f2SdlyRpdiaDBJS0yvjqdUAslqTVMUAiZC2zi12Q==
+xgplayer-helper-utils@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-helper-utils/-/xgplayer-helper-utils-2.5.2.tgz#4c4e01f2e9dfa45ebbd68d8ae6e487b2c7a67a2a"
+  integrity sha512-UYqk9mkysTdE8kAdunngzwohHNOzqS4O8SquERupq1pSVuGO4pNScovn6Gir0Ty4QxOteYKKkqXEgZHzOp4rqw==
   dependencies:
     eventemitter3 "^4.0.7"
-    xgplayer-helper-models "2.5.1"
+    xgplayer-helper-models "2.5.2"
 
-xgplayer-hls-live@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-hls-live/-/xgplayer-hls-live-2.5.1.tgz#d04f069906f6f7085b12cfaa78ea5bb29022cad5"
-  integrity sha512-yGX25ny9CG8OSRj1oTjGLYxXK55w1k3iosYPWuMGRgZc34VsY5MUnWJZXsfkmYRZZ1bABViuFw62i8bZyG1Ngw==
+xgplayer-hls-live@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-hls-live/-/xgplayer-hls-live-2.5.2.tgz#f9883fae1f9c8c7faaccf37252810816a6b0d664"
+  integrity sha512-ClVNG4jlYXk4j6iQMz85T1J0Em+FHBooTBPsCo+uv9iMspoj/Cm+tSSmPoWw/jj9jRsIf/IpqX+qhWUmXRM0ag==
   dependencies:
-    xgplayer-helper-codec "2.5.1"
-    xgplayer-helper-models "2.5.1"
-    xgplayer-helper-transmuxers "2.5.1"
-    xgplayer-helper-utils "2.5.1"
+    xgplayer-helper-codec "2.5.2"
+    xgplayer-helper-models "2.5.2"
+    xgplayer-helper-transmuxers "2.5.2"
+    xgplayer-helper-utils "2.5.2"
 
-xgplayer-hls-vod@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-hls-vod/-/xgplayer-hls-vod-2.5.1.tgz#1537e68bb862502b20e4187b8eb29cf81d3b2d57"
-  integrity sha512-Zu8NvyT5f3MmYESKn4KtiZWErUJoGycfS7vYKezHsusGPnXWaeXpz23USxl0SxHAV4M/3OBO5WIQbFK8/HQuYA==
+xgplayer-hls-vod@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-hls-vod/-/xgplayer-hls-vod-2.5.2.tgz#7ed2b348783b108807c6503712b8e29232ae7123"
+  integrity sha512-LpHUOD00Vt8gey8ptVV7/m4KSlRMDMvw5WDpx1Virj4b2aOcviH4qAIZ6bpfQ6MN5BFLlg7FbGSchL3uhuQ9kQ==
   dependencies:
-    xgplayer-helper-codec "2.5.1"
-    xgplayer-helper-models "2.5.1"
-    xgplayer-helper-transmuxers "2.5.1"
-    xgplayer-helper-utils "2.5.1"
+    xgplayer-helper-codec "2.5.2"
+    xgplayer-helper-models "2.5.2"
+    xgplayer-helper-transmuxers "2.5.2"
+    xgplayer-helper-utils "2.5.2"
 
 xgplayer-hls.js@^2.6.1:
   version "2.6.1"
@@ -10087,13 +10111,13 @@ xgplayer-hls.js@^2.6.1:
     eventemitter3 "^4.0.7"
     hls.js "^1.1.1"
 
-xgplayer-hls@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/xgplayer-hls/-/xgplayer-hls-2.5.1.tgz#205e68adba658dbd2d0f0ce500c3c37364ea7d07"
-  integrity sha512-B7Zknuhk/U0X/1MLKwdRqERQyaEtxQDUB+ZmSkWnw+9pjWNQdsaSoyJ3+S/AOrr/H4Zhuw11sQunq1M/y1tk6g==
+xgplayer-hls@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/xgplayer-hls/-/xgplayer-hls-2.5.2.tgz#84c6b1c99c65b413d1e79f053d38597d49e64eb8"
+  integrity sha512-2+6ctUiFYzG52NFn5Tzcr/lstyvH3K4nULBp4pnRXLJAVDJjGeCdX3klwKTz2iPR/40EkMifQG2rhm0iaAZk7g==
   dependencies:
-    xgplayer-hls-live "2.5.1"
-    xgplayer-hls-vod "2.5.1"
+    xgplayer-hls-live "2.5.2"
+    xgplayer-hls-vod "2.5.2"
 
 xgplayer-music@^2.3.2:
   version "2.3.2"
@@ -10118,10 +10142,10 @@ xgplayer-subtitles@^1.0.19:
     eventemitter3 "^4.0.7"
     generate-source-map "0.0.5"
 
-xgplayer@^2.31.4:
-  version "2.31.4"
-  resolved "https://registry.yarnpkg.com/xgplayer/-/xgplayer-2.31.4.tgz#7f95d88f80ac792aaf3592102cfd2e793df1c4eb"
-  integrity sha512-apuAucT8RMsC8t0lattoBI9g8o9Pf7ZP7G5Eh5T7CpYAC7WA8zWZiWSunidc3rAs9HZmROhRtd1RhPnIyXGJjg==
+xgplayer@^2.31.6:
+  version "2.31.6"
+  resolved "https://registry.yarnpkg.com/xgplayer/-/xgplayer-2.31.6.tgz#2deb73bb2200ff9de85d9f2bfd838cae981d12b6"
+  integrity sha512-95mEdChOam010QCKU+putYvjbN/MPwQZwECrlG+MbTy8e7REpVEgTmko6f5FRQoPAMV7k7veLgZrCaMUDuV81A==
   dependencies:
     chalk "^2.3.2"
     commander "^2.15.1"

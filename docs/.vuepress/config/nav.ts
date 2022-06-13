@@ -25,6 +25,10 @@ export default <Array<NavItem>>[
     text: "友情链接",
     items: [
       {
+        text: "vuepress",
+        link: "https://vuepress.vuejs.org/",
+      },
+      {
         text: "vuepress-theme-vdoing",
         link: "https://doc.xugaoyi.com/",
       },

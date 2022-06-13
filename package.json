@@ -21,7 +21,7 @@
   "homepage": "https://github.com/u2sb/vuepress-theme-vdoing-template#readme",
   "dependencies": {
     "markdown-it-abbr": "^1.0.4",
-    "markdown-it-attrs": "^4.1.3",
+    "markdown-it-attrs": "^4.1.4",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-ins": "^3.0.1",
@@ -35,8 +35,8 @@
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-smplayer": "^1.5.2",
+    "vuepress-plugin-smplayer": "^1.5.3",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-theme-vdoing": "^1.11.1"
+    "vuepress-theme-vdoing": "^1.12.3"
   }
 }

@@ -9638,10 +9638,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.12.3:
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.3.tgz#2d6a623653854385d12ddc763454a84feffa4533"
-  integrity sha512-LVyyTDrK0e+Fr5MAGMhaeci0Y3N/hczKG4rzxtuvQq71w4HcnCm+CXTLnHczxQ4aroqqR96caJmwxzfWjVqRbw==
+vuepress-theme-vdoing@^1.12.5:
+  version "1.12.5"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.5.tgz#4ffe39cb4495f7041f2dad98c4e71f80f04572b3"
+  integrity sha512-xkWcwo7E3dk5/5x6XWCbHZnXTp5azbkZDEmKLQ667D/33+3y35S9jTGNh4PtLjOItbEns1c6ZNkPF0Ew1W/aPw==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
